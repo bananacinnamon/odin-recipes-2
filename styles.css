@@ -1,0 +1,71 @@
+
+/* ul {
+    display:flex;
+} */
+
+* {
+    background-color:rgb(223, 222, 243);
+}
+
+ul#main {
+    list-style-type: none;
+    text-align: center;
+    padding:inherit;
+}
+
+button {
+    margin:5px;
+    padding:10px;
+    border:10px solid #144208;
+}
+
+div.container {
+text-align: center;
+}
+
+div .button {
+    margin:50px;
+}
+
+.photo {
+    height:200px;
+    width:auto;
+}
+
+h1.recipe-title {
+    text-align: center;
+    color:#144208;
+    font-style:oblique;
+}
+
+h2,
+h3 {
+    margin:20px;
+    color:rgb(5, 62, 112)
+}
+
+p {
+    margin:20px;
+}
+
+h3 {
+    margin-top:50px;
+}
+
+#cauliflower,
+#burger,
+#pizza {
+    display:block;
+    width:50%;
+    margin:auto;
+    border: 10px solid #144208;
+}
+
+a#home {
+    display:block;
+    background-color: bisque;
+    padding:20px;
+    margin:20px;
+    text-align: center;
+    font-weight: bold;
+}

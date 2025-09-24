@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- <style>
+            body {transition: opacity ease-in 0.2s; } 
+            body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+        </style> -->
         <meta charset="UTF-8">
-        <title>Odin Recipes</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+           body {
+            font-family:Garamond, 'Times New Roman';
+           }
+           h1{
+            color:#c65c16;
+            text-align: center;
+           }
+        </style>
+        <title id="main-title">Odin Recipes</title>
     </head>
 
     <body>
         <h1>Odin Recipes</h1>
-        <ul>
-            <li><a href="recipes/cauliflower_alfredo_bake.html" target="_blank" ref="noopener noreferrer">Cauliflower Alfredo Bake</a></li>
-            <li><a href="recipes/burger_patty.html" target="_blank" ref="noopener noreferrer">Burger Patty</a></li>
-            <li><a href="recipes/lavash_pizza.html" target="_blank" ref="noopener noreferrer">Lavash Pizza</a></li>
+        <ul id="main">
+            <li><button class="button"><a href="recipes/cauliflower_alfredo_bake.html" target="_blank" ref="noopener noreferrer">
+                <img class="photo" src="https://www.allrecipes.com/thmb/Yh4CD5MmPW7KlJ4YXCcPUGlvkRs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/11768376-4-ingredient-cauliflower-alfredo-bake-recipe-VAT-005-Beauty-4x3-a1613b69e2bc4a2e8cd29ac3b73199f5.jpg" alt="an image of a cauliflower alfredo bake in a bowl">
+                <p>Cauliflower Alfredo Bake</p></a></button></li>
+            <li><button class="button"><a href="recipes/burger_patty.html" target="_blank" ref="noopener noreferrer">
+                <img class="photo" src="https://www.allrecipes.com/thmb/8fe_5pLNz2eHcpknNhL52fdq5hE=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/25473-the-perfect-basic-burger-DDMFS-4x3-56eaba3833fd4a26a82755bcd0be0c54.jpg" alt="an image of a burger on a plate">
+                <p>Burger Patty</p></a></button></li>
+            <li><button class="button"><a href="recipes/lavash_pizza.html" target="_blank" ref="noopener noreferrer">
+                <img class="photo" src="https://www.allrecipes.com/thmb/Q-PPYEZsLPl7jZ5qXI37YbvJfls=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/11681521_Lavash-Pizza_TheDailyGourmet_4x3-b32a1aaa7a8e4ff58b3ce3a526be5b58.jpg" alt="an image of thin crust base pizza topped with pepperoni that are cut into triangles">
+                <p>Lavash Pizza</p></a></button></li>
         </ul>
     </body>
 </html>
